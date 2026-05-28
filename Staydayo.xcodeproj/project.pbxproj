@@ -8,14 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		04D2B2CA6B315E1042E2C2AF /* StaydayoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C7232F551AD69147EC45C0 /* StaydayoApp.swift */; };
+		1A2B3C4D5E6F708192A3B4C5 /* StaydayoTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F708192A3B4C5D6 /* StaydayoTheme.swift */; };
+		3C4D5E6F708192A3B4C5D6E7 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E6F708192A3B4C5D6E7F8 /* PaywallView.swift */; };
+		5E6F708192A3B4C5D6E7F809 /* PaywallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F708192A3B4C5D6E7F8091A /* PaywallViewModel.swift */; };
 		694D2987B56CCEECA4AD45D7 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A212B59EBCCE34E60DA8A0B5 /* HomeViewModel.swift */; };
+		708192A3B4C5D6E7F8091A2B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8192A3B4C5D6E7F8091A2B3C /* RootView.swift */; };
 		9E0BC081D895974DF9BB05EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBF2BCBBA6503EFD182D30F /* Assets.xcassets */; };
 		E8FEBF62C97A941F4AE15998 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB94A233B4CAC7F6C02D1938 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B3C4D5E6F708192A3B4C5D6 /* StaydayoTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaydayoTheme.swift; sourceTree = "<group>"; };
+		4D5E6F708192A3B4C5D6E7F8 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
 		51C7232F551AD69147EC45C0 /* StaydayoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaydayoApp.swift; sourceTree = "<group>"; };
 		6AFE4DDE83BF1BE86C47C747 /* Staydayo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Staydayo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F708192A3B4C5D6E7F8091A /* PaywallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallViewModel.swift; sourceTree = "<group>"; };
+		8192A3B4C5D6E7F8091A2B3C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		A212B59EBCCE34E60DA8A0B5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		BB94A233B4CAC7F6C02D1938 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BEBF2BCBBA6503EFD182D30F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +50,8 @@
 			isa = PBXGroup;
 			children = (
 				EF2CB6203F2531B81AE432C0 /* Home */,
+				A1B2C3D4E5F60718293A4B5C /* Paywall */,
+				B2C3D4E5F60718293A4B5C6D /* Root */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -50,10 +60,36 @@
 			isa = PBXGroup;
 			children = (
 				51C7232F551AD69147EC45C0 /* StaydayoApp.swift */,
+				C3D4E5F60718293A4B5C6D7E /* Design */,
 				6A221148C30C051B56A814D3 /* Features */,
 				B4309C2BBDC8E0A80FF57D9F /* Resources */,
 			);
 			path = Staydayo;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F60718293A4B5C /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				4D5E6F708192A3B4C5D6E7F8 /* PaywallView.swift */,
+				6F708192A3B4C5D6E7F8091A /* PaywallViewModel.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		B2C3D4E5F60718293A4B5C6D /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				8192A3B4C5D6E7F8091A2B3C /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		C3D4E5F60718293A4B5C6D7E /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				2B3C4D5E6F708192A3B4C5D6 /* StaydayoTheme.swift */,
+			);
+			path = Design;
 			sourceTree = "<group>";
 		};
 		B4309C2BBDC8E0A80FF57D9F /* Resources */ = {
@@ -140,6 +176,10 @@
 			files = (
 				E8FEBF62C97A941F4AE15998 /* HomeView.swift in Sources */,
 				694D2987B56CCEECA4AD45D7 /* HomeViewModel.swift in Sources */,
+				3C4D5E6F708192A3B4C5D6E7 /* PaywallView.swift in Sources */,
+				5E6F708192A3B4C5D6E7F809 /* PaywallViewModel.swift in Sources */,
+				708192A3B4C5D6E7F8091A2B /* RootView.swift in Sources */,
+				1A2B3C4D5E6F708192A3B4C5 /* StaydayoTheme.swift in Sources */,
 				04D2B2CA6B315E1042E2C2AF /* StaydayoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
