@@ -19,7 +19,7 @@ final class PaywallViewModel {
         ("calendar.badge.clock", "Stay-day tracking", "Automatic counts for visa and tax residency limits."),
         ("bell.badge.fill", "Smart alerts", "Warnings before you hit thresholds."),
         ("map.fill", "Trip planning", "Multi-country timelines in one place."),
-        ("lock.shield.fill", "Private & secure", "Your travel data stays on your device."),
+        ("lock.shield.fill", "Private & secure", "Encrypted on device with optional iCloud sync."),
     ]
 
     let socialProof = "Trusted by travelers in 40+ countries"
